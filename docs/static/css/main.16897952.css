@@ -641,8 +641,8 @@ nav {
 }
 
 .search-bar-label {
-    
-    border: 10px 0 0 10px;
+    background-color: #43342b;
+    border: 2px solid #363029;
     border-radius: 0 10px 10px 0;
     cursor: pointer;
     display: flex;
@@ -650,8 +650,6 @@ nav {
     height: 44px;
     justify-content: center;
     width: 100px
-        background-color: #43342b;
-    border: 2px solid rgba(54, 48, 41, 0.743);
 }
 
 .search-bar-input {
@@ -1320,4 +1318,4 @@ nav {
     background-color: rgba(195, 7, 7, .389) !important
 }
 
-/*# sourceMappingURL=main.16897952.css.map*/
+/*# sourceMappingURL=main.a73e68cf.css.map*/
