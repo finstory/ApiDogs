@@ -1,0 +1,70 @@
+body {
+    font-family: 'Sansita Swashed', cursive !important;
+    background-color: black;
+    text-align: center;
+    /* font-family: 'Nuosu SIL', serif; */
+    /* font-family: 'Sansita Swashed', cursive; */
+    /* font-family: 'Water Brush', cursive; */
+}
+
+.container-landing-page {
+    background-image: url("https://i.postimg.cc/PxXLv9CV/img-landing.png");
+    background-size: 90em;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    filter: blur(100px);
+}
+
+.card-landing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-top: 20vh;
+    text-align: center;
+    width: 40vw;
+    height: 46vh;
+    filter: drop-shadow(4px 4px 4px #262626c5);
+    background: linear-gradient(90deg, rgba(151, 71, 10, 0.606) 47%, rgba(160, 68, 28, 0.543) 86%);
+}
+
+.card-landing :hover {
+    transform: scale(1.05);
+}
+
+
+.card-landing__text {
+    display: inline-block;
+    color: rgba(222, 201, 163, 0.926);
+    line-height: 1.4em;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+.card-landing__button {
+    margin-top: 40px;
+
+    display: inline-block;
+
+}
+
+.card-landing__button-navlink {
+    letter-spacing: 1px;
+    border: 2px solid rgba(54, 48, 41, 0.381);
+    background-color: rgba(202, 126, 13, 0.371);
+    border-radius: 10px;
+    padding: 8px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: auto;
+    height: 40px;
+    color: rgba(222, 201, 163, 0.926);
+}
+
+.card-landing__button :hover {
+    background-color: rgba(191, 117, 48, 0.599);
+}

@@ -1,0 +1,49 @@
+.disabled {
+    background-color: transparent !important;
+    cursor: auto !important;
+}
+
+.container-pagination {
+    padding-bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__back,
+.pagination__id,
+.pagination__next {
+
+    border: 2px solid rgba(54, 48, 41, 0.238);
+    border-radius: 10px;
+    color: rgba(221, 208, 185, 0.749);
+    margin: 20px 40px;
+    padding: 3px 34px;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.pagination__back {
+    background-color: rgba(204, 64, 21, 0.749);
+    cursor: pointer;
+}
+
+.pagination__id {
+    display: flex;
+    justify-content: center;
+    width: 10px;
+    background-color: rgba(160, 79, 17, 0.772);
+}
+
+.pagination__id p {
+    display: inline-block;
+    margin: 0;
+}
+
+
+.pagination__next {
+    background-color: rgba(214, 150, 21, 0.81);
+    cursor: pointer;
+}
